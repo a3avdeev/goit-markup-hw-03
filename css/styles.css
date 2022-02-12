@@ -10,6 +10,28 @@ body {
   font-family: var(--font-family);
 }
 
+h1,
+h1,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
 }
@@ -97,7 +119,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
-/* ничего не сказано об указателе и изменении при нажатии */
+
 .button {
   font-family: var(--font-family);
   font-style: normal;
