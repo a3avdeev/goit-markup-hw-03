@@ -64,6 +64,8 @@ li {
 }
 
 .logo {
+  margin-right: 92px;
+
   color: #000000;
   font-family: var(--logo-font);
   font-style: normal;
@@ -71,7 +73,6 @@ li {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  margin-right: 92px;
 }
 
 .footer-logo {
