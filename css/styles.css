@@ -45,7 +45,7 @@ li {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -76,8 +76,6 @@ li {
 }
 
 .footer-logo {
-  /* margin-bottom: 20px; */
-
   color: #ffffff;
   font-family: var(--logo-font);
   font-style: normal;
@@ -184,6 +182,7 @@ li {
   border: transparent;
   display: flex;
   align-items: center;
+  cursor: pointer;
 
   font-family: var(--font-family);
   font-style: normal;
@@ -211,10 +210,10 @@ li {
   margin-left: 30px;
 }
 
-/* .item {
+.item {
   width: 270px;
   height: 100px;
-} */
+}
 
 .about-title {
   margin-bottom: 10px;
@@ -274,6 +273,7 @@ li {
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .team-list-item + .team-list-item {
