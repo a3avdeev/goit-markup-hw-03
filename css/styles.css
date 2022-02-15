@@ -287,8 +287,12 @@ li {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-list-name {
-  margin-top: 30px;
   margin-bottom: 10px;
 
   font-family: var(--font-family);
